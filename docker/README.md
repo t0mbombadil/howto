@@ -19,10 +19,10 @@ echo "alias howto=\"$(realpath)/run.sh\"" >> ~/.bashrc
 # Usage
 
 ```bash
-./run.sh tar a file
+./run.sh "tar a file"
 
 # Or with alias
-howto tar a file
+howto "tar a file"
 ```
 
 # Security hardening
